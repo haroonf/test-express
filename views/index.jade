@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  button(onclick="location.href='/backend'") Call Backend
+
+  button(onclick="location.href='/redis'") Call Redis
